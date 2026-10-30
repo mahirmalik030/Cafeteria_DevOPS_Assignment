@@ -11,4 +11,73 @@
 /* ===== ORDER PAGE (Member 3) END ===== */
 
 /* ===== FEEDBACK PAGE (Member 4) START ===== */
+/* Feedback Page Specific Styles */
+.feedback-contact,
+.feedback-formbox {
+  background: var(--card);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.feedback-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feedback-list li {
+  padding: 6px 0;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-label {
+  font-weight: bold;
+  color: var(--primary-dark);
+}
+
+.feedback-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--muted);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.feedback-button {
+  align-self: flex-start;
+  margin-top: 8px;
+  padding: 10px 24px;
+  background: var(--primary);
+  color: var(--card);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.feedback-button:hover {
+  background: var(--primary-dark);
+}
+
+@media (max-width: 600px) {
+  .feedback-contact,
+  .feedback-formbox {
+    padding: 12px;
+  }
+
+  .feedback-button {
+    width: 100%;
+  }
+}
 /* ===== FEEDBACK PAGE (Member 4) END ===== */

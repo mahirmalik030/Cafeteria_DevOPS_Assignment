@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Bites - Feedback</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="deals.html">Deals</a>
+    <a href="order.html">How to Order</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+  <main>
+    <h1>Feedback</h1>
+
+    <!-- Contact details -->
+    <section class="feedback-contact">
+      <h2>Contact Us</h2>
+      <ul class="feedback-list">
+        <li><strong>Phone:</strong> 042-1234567</li>
+        <li><strong>Email:</strong> contact@campusbites.example</li>
+        <li><strong>Location:</strong> Ground Floor, Main Block, University Campus</li>
+        <li><strong>Hours:</strong> Mon-Fri 8:00 AM - 6:00 PM | Sat 9:00 AM - 2:00 PM | Sun closed</li>
+      </ul>
+    </section>
+
+    <!-- Static feedback form (no JavaScript) -->
+    <section class="feedback-formbox">
+      <h2>Send Us Your Feedback</h2>
+      <form action="#" method="post" class="feedback-form">
+        <label for="feedback-name" class="feedback-label">Name</label>
+        <input type="text" id="feedback-name" name="name" class="feedback-input" required>
+
+        <label for="feedback-email" class="feedback-label">Email</label>
+        <input type="email" id="feedback-email" name="email" class="feedback-input" required>
+
+        <label for="feedback-message" class="feedback-label">Message</label>
+        <textarea id="feedback-message" name="message" rows="5" class="feedback-input" required></textarea>
+
+        <button type="submit" class="feedback-button">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Campus Bites | Mon-Fri 8:00 AM - 6:00 PM</p>
+  </footer>
+</body>
+</html>

@@ -5,6 +5,93 @@
 /* ===== MENU PAGE (Member 1) END ===== */
 
 /* ===== DEALS PAGE (Member 2) START ===== */
+
+/* Deal of the Day */
+.deals-day {
+  background: var(--primary);
+  color: var(--card);
+  padding: 24px;
+  margin: 20px 0;
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.deals-day h2,
+.deals-day h3 {
+  color: var(--card);
+}
+
+.deals-day ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* Combo Deals */
+.deals-combos {
+  margin: 30px 0;
+}
+
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.deals-card {
+  background: var(--card);
+  border: 1px solid var(--muted);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+
+.deals-card h3 {
+  margin-top: 0;
+}
+
+.deals-card ul {
+  padding-left: 20px;
+}
+
+.deals-price {
+  color: var(--primary-dark);
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Contact Information */
+.deals-info {
+  background: var(--card);
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: var(--radius);
+  border-left: 5px solid var(--primary);
+}
+
+.deals-info p {
+  margin: 8px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .deals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .deals-day {
+    padding: 16px;
+  }
+
+  .deals-card {
+    padding: 16px;
+  }
+
+  .deals-info {
+    padding: 16px;
+  }
+}
+
 /* ===== DEALS PAGE (Member 2) END ===== */
 
 /* ===== ORDER PAGE (Member 3) START ===== */

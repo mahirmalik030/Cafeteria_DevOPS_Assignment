@@ -2,6 +2,57 @@
 /* ===== HOME PAGE (Team Lead) END ===== */
 
 /* ===== MENU PAGE (Member 1) START ===== */
+/* Menu Page Styles */
+.menu-category {
+    margin: 30px 0;
+}
+
+.menu-category h2 {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--primary);
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-card {
+    background: var(--card);
+    padding: 20px;
+    border-radius: var(--radius);
+    border: 1px solid #eeeeee;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.menu-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.menu-card p {
+    color: var(--muted);
+}
+
+.menu-card .menu-price {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    .menu-items {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-card {
+        padding: 16px;
+    }
+}
 /* ===== MENU PAGE (Member 1) END ===== */
 
 /* ===== DEALS PAGE (Member 2) START ===== */
